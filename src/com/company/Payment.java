@@ -5,7 +5,7 @@ public abstract class Payment {
     int PaymentID;
 
     public abstract void pay();
-    public abstract void printTransferConfirmation();
+    public abstract void printTransferConfirmation(); //which only can but need not be redefined in derived classes
 
 
 }
